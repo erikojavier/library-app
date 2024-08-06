@@ -1,1 +1,1 @@
-Project: Library for The Odin Project.
+Project: Library assignment for The Odin Project.
