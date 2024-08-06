@@ -1,1 +1,1 @@
-# library-app
+Project: Library for The Odin Project.

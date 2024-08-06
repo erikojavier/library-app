@@ -1,0 +1,121 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #14213d;
+    color: #fca311;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.add-btn {
+    border: 4px solid black;
+    border-radius: 40px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background-color:#fca311;
+    padding: 15px 40px;
+    color: black;
+}
+
+.dialog {
+    background-color: #e5e5e5;
+    max-width: 340px;
+    border-radius: 1rem;
+    border: 4px  solid #fca311;
+    /*box-shadow: 0 0 1em rgba(102, 102, 102, 0.3);*/
+}
+
+.dialog::backdrop {
+    background-color: rgb(0 0 0 /.4)
+}
+
+.library {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #14213d;
+}
+
+#title, #author, #pages,
+.read {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.submit-btn {
+    position: relative;
+    left: 67px;
+    font-size: 2rem;
+    padding: 5px 30px;
+    background-color: #fca311;
+    color: #14213d;
+    border-radius: 10px;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+input[type="checkbox"] {
+    background-color: #fff;
+    margin: 0 0 0 8px;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 0.15em;
+  }
+
+.card {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #b6b6b6;
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+    border: 3px solid black;
+}
+
+.book-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.book-author {
+    font-style: italic;
+    margin: 0;
+}
+
+.book-pages {
+    margin: 15px 0 40px 0;
+}
+
+.book-read {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.delete-book {
+    border: 2px solid rgb(214, 1, 1);
+    border-radius: 5px;
+}
+
